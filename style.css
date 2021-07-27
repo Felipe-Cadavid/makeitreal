@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background: url('./images/background.jpg');
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    color: white;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.myPhoto{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.myName{
+    font-size: 40px;
+}
+
+.myCity{
+    font-size: 30px;
+}
